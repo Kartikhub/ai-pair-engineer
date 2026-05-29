@@ -23,14 +23,8 @@ The assistant speaks like a senior backend engineer, not a compliance tool.
 ## Architecture
 
 ```
-┌──────────────────┐     ┌─────────────────────┐     ┌───────────────────┐     ┌─────────────┐
-│  Streamlit UI    │────▶│  Review Orchestrator │────▶│ LangChain Prompts │────▶│  Gemini LLM │
-│                  │     │   (review_engine.py) │     │   (prompts.py)    │     │             │
-│  • Code editor   │     │                      │     └───────────────────┘     └─────────────┘
-│  • Mode selector │     │  • route by mode     │                                      │
-│  • Inline hints  │     │  • compose prompts   │◀─────────────────────────────────────┘
-│  • Result render │     │  • parse response    │       structured feedback
-└──────────────────┘     └─────────────────────┘
+<img width="6128" height="4168" alt="ai-pair-engineer-architecture" src="https://github.com/user-attachments/assets/9ffb7c75-0f9f-4266-8c39-8cdc462b655f" />
+
 ```
 
 **Current stack:**
