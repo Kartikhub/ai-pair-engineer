@@ -22,10 +22,7 @@ The assistant speaks like a senior backend engineer, not a compliance tool.
 
 ## Architecture
 
-```
-<img width="6128" height="4168" alt="ai-pair-engineer-architecture" src="https://github.com/user-attachments/assets/9ffb7c75-0f9f-4266-8c39-8cdc462b655f" />
-
-```
+<img width="1920" alt="AI Pair Engineer — Architecture" src="https://github.com/user-attachments/assets/9ffb7c75-0f9f-4266-8c39-8cdc462b655f" />
 
 **Current stack:**
 
