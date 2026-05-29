@@ -1,5 +1,7 @@
 # AI Pair Engineer
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agentic-ai-pair-engineer.streamlit.app/)
+
 > An AI-assisted backend engineering workspace. Not a code review tool — an engineering teammate.
 
 Built for backend engineers working on distributed systems, platform services, and reliability-critical implementations. The product is designed to feel like a senior engineering colleague giving focused guidance before a PR review, not a static analysis dashboard.
